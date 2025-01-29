@@ -1,0 +1,350 @@
+2025-01-27 21:18:03,740 - passlib.registry - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-27 21:18:03,832 - moduls.login.auth.auth - INFO - User logged in: bjb25@example.com
+2025-01-27 21:18:13,306 - moduls.login.auth.auth - INFO - User logged in: bjb25@example.com
+2025-01-27 21:20:48,360 - moduls.login.auth.auth - INFO - New user registered: bjb26@example.com
+2025-01-27 21:23:20,437 - moduls.login.auth.auth - INFO - User logged in: bjb25@example.com
+2025-01-27 21:23:22,352 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-27 21:23:26,061 - INFO - User logged in: bjb25@example.com
+2025-01-27 22:36:02,419 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-27 22:42:24,870 - INFO - User logged in: bjb25@example.com
+2025-01-27 22:44:56,874 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-27 22:46:37,247 - INFO - User logged in: bjb25@example.com
+2025-01-27 22:46:38,395 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-27 22:48:12,430 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:00:55,687 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:00:56,833 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:01:28,885 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:05:57,100 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:10:57,396 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:11:05,447 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:11:14,807 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:13:04,471 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:13:18,579 - INFO - New user registered: jodia@admin.com
+2025-01-28 00:13:53,445 - INFO - User logged in: jodia@admin.com
+2025-01-28 00:37:18,942 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:37:20,105 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:39:59,108 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:40:36,940 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:40:58,776 - INFO - User logged in: bjb25@example.com
+2025-01-28 00:42:09,143 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 00:48:01,439 - INFO - User logged in: bjb25@example.com
+2025-01-28 01:24:03,601 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 01:24:04,928 - INFO - Accessing protected route
+2025-01-28 01:24:24,950 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:24:24,966 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:24:24,966 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:24:24,966 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:24:57,743 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:24:57,756 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:24:57,756 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:24:57,758 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:24:58,729 - DEBUG - registered 'pbkdf2_sha256' handler: <class 'passlib.handlers.pbkdf2.pbkdf2_sha256'>
+2025-01-28 01:25:01,729 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:25:01,735 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:25:01,749 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:25:14,048 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:25:14,070 - WARNING - Invalid login attempt: bjb25@example.com
+2025-01-28 01:25:19,644 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:25:19,656 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:25:19,657 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:25:40,821 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:25:40,845 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:25:40,845 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 01:26:03,610 - INFO - Attempting login for user: bjb25@example.com
+2025-01-28 01:26:03,633 - INFO - Generating access token for user: bjb25@example.com
+2025-01-28 01:26:03,633 - INFO - Login successful for user: bjb25@example.com
+2025-01-28 02:03:15,128 - INFO - Accessing protected route
+2025-01-28 02:04:37,299 - INFO - Accessing protected route
+2025-01-28 02:04:38,223 - INFO - Accessing protected route
+2025-01-28 02:04:41,767 - INFO - Accessing protected route
+2025-01-28 02:06:51,510 - INFO - Accessing protected route
+2025-01-28 02:06:56,954 - INFO - Accessing protected route
+2025-01-28 02:07:06,852 - INFO - Accessing protected route
+2025-01-29 12:31:50,130 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 12:32:14,769 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': '3', 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '7', 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '5', 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '22', 'nama_menu': 'kopppiii', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '12', 'nama_menu': 'testt', 'harga': 3332.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '6', 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': '102', 'nama_menu': 'kopikapv2', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': '1343', 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': '1', 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': '332', 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': '1233', 'nama_menu': 'makanan', 'harga': 1599.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': '2', 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-29 13:25:27,783 - ERROR - Error: (psycopg2.errors.NotNullViolation) null value in column "id_menu" of relation "menu" violates not-null constraint
+DETAIL:  Failing row contains (null, kontol, 155555, 1).
+
+[SQL: INSERT INTO menu (nama_menu, harga, id_kategori) VALUES (%(nama_menu)s, %(harga)s, %(id_kategori)s) RETURNING menu.id_menu]
+[parameters: {'nama_menu': 'kontol', 'harga': 155555.0, 'id_kategori': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-29 13:26:09,905 - ERROR - Error: (psycopg2.errors.NotNullViolation) null value in column "id_menu" of relation "menu" violates not-null constraint
+DETAIL:  Failing row contains (null, kontol, 155555, 1).
+
+[SQL: INSERT INTO menu (nama_menu, harga, id_kategori) VALUES (%(nama_menu)s, %(harga)s, %(id_kategori)s) RETURNING menu.id_menu]
+[parameters: {'nama_menu': 'kontol', 'harga': 155555.0, 'id_kategori': 1}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-01-29 13:30:18,599 - INFO - Menu created: asdadd
+2025-01-29 13:30:46,026 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': 3, 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 7, 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 5, 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 22, 'nama_menu': 'kopppiii', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 12, 'nama_menu': 'testt', 'harga': 3332.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 2, 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1343, 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1, 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 332, 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1233, 'nama_menu': 'makanan', 'harga': 1599.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 102, 'nama_menu': 'kopikapv2', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-29 13:31:09,722 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': 3, 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 7, 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 5, 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 22, 'nama_menu': 'kopppiii', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 12, 'nama_menu': 'testt', 'harga': 3332.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 2, 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1343, 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1, 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 332, 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1233, 'nama_menu': 'makanan', 'harga': 1599.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 102, 'nama_menu': 'kopikapv2', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-29 13:31:40,934 - INFO - Menu updated: string
+2025-01-29 13:31:51,168 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': 7, 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 5, 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 22, 'nama_menu': 'kopppiii', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 12, 'nama_menu': 'testt', 'harga': 3332.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 3, 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 2, 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 14212, 'nama_menu': 'string', 'harga': 0.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1343, 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1, 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 332, 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1233, 'nama_menu': 'makanan', 'harga': 1599.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 102, 'nama_menu': 'kopikapv2', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-29 13:32:05,380 - INFO - Menu updated: kkkkkk
+2025-01-29 13:32:08,402 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': 7, 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 5, 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 22, 'nama_menu': 'kopppiii', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 12, 'nama_menu': 'testt', 'harga': 3332.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 3, 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 2, 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 14212, 'nama_menu': 'kkkkkk', 'harga': 15550.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1343, 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1, 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 332, 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1233, 'nama_menu': 'makanan', 'harga': 1599.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 102, 'nama_menu': 'kopikapv2', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-29 13:32:23,749 - INFO - Menu deleted: kkkkkk
+2025-01-29 13:37:43,095 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 13:37:43,112 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 13:37:44,361 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 13:37:44,382 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 13:37:45,286 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 13:37:45,291 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 13:37:52,855 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 13:37:52,856 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 13:37:53,068 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 13:37:53,072 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 13:57:30,433 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 13:57:30,439 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:01:21,920 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:03:58,678 - INFO - Menu retrieved: Air Putih
+2025-01-29 14:09:04,789 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:09:04,811 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:09:04,908 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:09:04,911 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:09:07,340 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:09:07,343 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:09:26,675 - INFO - Menu retrieved: Kopi
+2025-01-29 14:11:31,660 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:11:31,664 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:12:48,807 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:12:48,808 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:12:51,768 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:12:51,771 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:14:50,537 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:01,142 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:01,146 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:03,061 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:03,064 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:04,547 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:04,551 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:05,850 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:05,854 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:07,585 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:07,589 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:08,735 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:08,738 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:09,788 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:09,792 - INFO - Menu retrieved: Kopi
+2025-01-29 14:15:10,936 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:15:10,940 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:19:28,545 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:19:32,751 - INFO - Menu deleted: testt
+2025-01-29 14:23:16,664 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:23:16,666 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:23:17,765 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:23:17,769 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:23:31,085 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:23:31,109 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:23:31,349 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:23:31,352 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:25:34,485 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:25:34,490 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:25:35,853 - INFO - Menu retrieved: Kopi
+2025-01-29 14:25:35,858 - INFO - Menu retrieved: Kopi
+2025-01-29 14:26:50,782 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:26:50,787 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:26:52,068 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:26:53,250 - INFO - Menu retrieved: Kopi
+2025-01-29 14:26:53,255 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:22,675 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:22,678 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:24,103 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:25,078 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:25,086 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:39,302 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:39,306 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:40,336 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:41,321 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:41,332 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:42,676 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:42,679 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:49,687 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:50,898 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:50,903 - INFO - Menu retrieved: Kopi
+2025-01-29 14:27:59,400 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:27:59,404 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:28:49,580 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:28:51,118 - INFO - Menu retrieved: Kopi
+2025-01-29 14:28:51,121 - INFO - Menu retrieved: Kopi
+2025-01-29 14:29:08,833 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:08,837 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:09,868 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:10,976 - INFO - Menu retrieved: Kopi
+2025-01-29 14:29:10,981 - INFO - Menu retrieved: Kopi
+2025-01-29 14:29:30,859 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:30,863 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:54,270 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:29:55,462 - INFO - Menu retrieved: Kopi
+2025-01-29 14:29:55,468 - INFO - Menu retrieved: Kopi
+2025-01-29 14:30:05,982 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:30:05,985 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:30:08,611 - INFO - Menu retrieved: Kopi
+2025-01-29 14:30:08,612 - INFO - Menu retrieved: Kopi
+2025-01-29 14:30:09,738 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:30:09,744 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:30:13,464 - INFO - Menu deleted: kopikapv2
+2025-01-29 14:30:27,945 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:31:39,081 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:31:46,348 - INFO - Menu deleted: kopppiii
+2025-01-29 14:33:38,320 - INFO - Menu retrieved: Kopi
+2025-01-29 14:33:38,324 - INFO - Menu retrieved: Kopi
+2025-01-29 14:33:56,596 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:33:56,596 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:33:58,549 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:33:58,549 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:34:50,356 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:35:47,316 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:35:47,323 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:36:42,954 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:36:46,015 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:36:46,015 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:36:47,749 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:38:06,529 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:38:06,530 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:38:08,096 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:39:26,153 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:39:26,154 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:39:27,461 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:39:44,916 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:39:44,919 - INFO - User bjb25@example.com retrieved all menus
+2025-01-29 14:39:47,024 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:39:47,027 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:43:03,008 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:43:04,942 - INFO - User logged out
+2025-01-29 14:43:13,556 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:43:13,576 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:43:14,330 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:43:14,350 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:43:14,391 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:43:14,394 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:44:21,444 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:44:23,042 - INFO - User logged out
+2025-01-29 14:44:37,701 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:44:37,711 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:44:44,458 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:44:44,474 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:44:44,517 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:44:44,519 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:45:27,293 - INFO - User logged out
+2025-01-29 14:45:31,741 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:45:31,760 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:46:37,155 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:46:37,155 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:46:37,281 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:46:37,284 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:46:49,942 - INFO - User logged out
+2025-01-29 14:46:54,534 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:46:54,553 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:47:20,338 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:47:20,358 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:47:20,855 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:47:20,859 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:31,107 - INFO - User logged out
+2025-01-29 14:48:35,853 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:48:35,877 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:48:37,998 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:48:38,015 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:48:38,063 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:38,065 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:40,184 - INFO - User logged out
+2025-01-29 14:48:44,822 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:48:44,842 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:48:46,838 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:48:46,853 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:48:46,893 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:46,896 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:55,125 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:48:55,936 - INFO - User logged out
+2025-01-29 14:49:00,368 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:49:00,384 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:49:05,136 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:49:05,151 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:49:05,204 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:49:05,206 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:49:39,576 - INFO - User logged out
+2025-01-29 14:49:43,193 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:49:43,209 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:49:43,929 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:49:43,944 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:49:43,997 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:49:44,000 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:51:27,189 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:51:27,191 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:51:30,014 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:51:31,319 - INFO - User logged out
+2025-01-29 14:51:41,604 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:51:41,620 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:54:55,516 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:54:55,532 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:54:56,024 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:54:56,029 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:54:58,225 - INFO - User logged out
+2025-01-29 14:55:01,613 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 14:55:01,627 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 14:55:01,675 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:55:01,678 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 14:55:03,632 - INFO - User logged out
+2025-01-29 15:09:09,551 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:09:09,564 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:09:09,619 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:09:09,623 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:09:26,090 - INFO - User logged out
+2025-01-29 15:10:33,070 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:10:33,084 - WARNING - Invalid login attempt for user: bjb25@example.com
+2025-01-29 15:10:42,843 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:10:42,856 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:10:43,169 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:10:43,171 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:14:13,403 - INFO - User logged out
+2025-01-29 15:15:12,878 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:15:12,902 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:15:12,959 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:15:12,962 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:16:18,039 - INFO - User logged out
+2025-01-29 15:16:27,284 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:16:27,299 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:16:27,784 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:16:27,787 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:18:25,078 - INFO - User logged out
+2025-01-29 15:18:31,283 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:18:31,307 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:18:31,358 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:18:31,362 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:18:35,330 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:18:37,580 - INFO - User logged out
+2025-01-29 15:18:46,863 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:18:46,880 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:18:47,357 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:18:47,360 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:21:16,772 - INFO - User logged out
+2025-01-29 15:21:22,387 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:21:22,404 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:21:22,913 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:21:22,916 - INFO - Accessing protected route by user: bjb25@example.com
+2025-01-29 15:22:40,637 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:22:40,653 - INFO - Login successful for user: bjb25@example.com
+2025-01-29 15:32:25,918 - INFO - User logged out
+2025-01-29 15:32:38,907 - INFO - Attempting login for user: bjb25@example.com
+2025-01-29 15:37:07,606 - INFO - User registered successfully: jodipascal722@gmail.com
+2025-01-29 15:37:23,939 - INFO - Attempting login for user: jodipascal722@gmail.com
+2025-01-29 15:37:24,147 - WARNING - Invalid login attempt for user: jodipascal722@gmail.com
+2025-01-29 15:37:37,745 - INFO - Attempting login for user: jodipascal722@gmail.com
+2025-01-29 15:37:37,952 - WARNING - Invalid login attempt for user: jodipascal722@gmail.com
+2025-01-29 15:39:58,505 - INFO - Attempting login for user: jodipascal722@gmail.com
+2025-01-29 15:39:58,745 - INFO - Login successful for user: jodipascal722@gmail.com
+2025-01-29 15:39:59,356 - INFO - Accessing protected route by user: jodipascal722@gmail.com
+2025-01-29 15:39:59,361 - INFO - Accessing protected route by user: jodipascal722@gmail.com
+2025-01-29 15:40:02,431 - INFO - User logged out
+2025-01-29 15:41:45,131 - INFO - User registered successfully: user@example.com
+2025-01-29 15:41:58,713 - INFO - Attempting login for user: user@example.com
+2025-01-29 15:41:58,934 - INFO - Login successful for user: user@example.com
+2025-01-29 15:42:13,610 - INFO - Attempting login for user: user@example.com
+2025-01-29 15:42:13,827 - INFO - Login successful for user: user@example.com
+2025-01-29 15:42:14,343 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 15:42:14,345 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 15:42:16,486 - INFO - User logged out
+2025-01-29 15:47:59,342 - ERROR - Decryption failed: Incorrect padding
+2025-01-29 15:48:43,597 - INFO - User registered successfully: user1@example.com
+2025-01-29 15:49:10,063 - INFO - Attempting login for user: user@example.com
+2025-01-29 15:49:10,279 - INFO - Login successful for user: user@example.com
+2025-01-29 15:49:10,783 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 15:49:10,786 - INFO - Accessing protected route by user: user@example.com
