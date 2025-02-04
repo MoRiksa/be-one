@@ -3,6 +3,7 @@ from models.absensiModels import Absensi
 from .schemas import AbsensiCreate, AbsensiUpdate, AbsensiResponse
 from fastapi import HTTPException, Request
 import logging
+from datetime import date
 
 # Logging setup
 logger = logging.getLogger(__name__)
@@ -79,22 +80,36 @@ async def checkin_absensi(request: Request, absensi: AbsensiCreate, db: Session)
 
 
 async def checkout_absensi(
-    request: Request, absensi_id: int, absensi_update: AbsensiUpdate, db: Session
+    request: Request, nip: str, absensi_update: AbsensiUpdate, db: Session
 ):
     access_token = request.cookies.get("access_token")
     user_email = request.cookies.get("user_email")
     try:
-        absensi = db.query(Absensi).filter(Absensi.id == absensi_id).first()
+        today = date.today()
+        absensi = (
+            db.query(Absensi)
+            .filter(
+                Absensi.nip == nip, Absensi.jam_keluar == None, Absensi.tanggal == today
+            )
+            .first()
+        )
         if not absensi:
-            logger.warning(f"Absensi record with ID {absensi_id} not found")
-            raise HTTPException(status_code=404, detail="Absensi not found")
+            logger.warning(
+                f"Absensi record with NIP {nip} not found or already checked out for today"
+            )
+            raise HTTPException(
+                status_code=404,
+                detail="Absensi not found or already checked out for today",
+            )
         absensi.jam_keluar = absensi_update.jam_keluar
         db.commit()
         db.refresh(absensi)
-        logger.info(f"Checked out absensi record with ID {absensi_id}")
+        logger.info(f"Checked out absensi record with NIP {nip} for today")
         return AbsensiResponse.from_orm(absensi)
     except Exception as e:
-        logger.error(f"Error checking out absensi record: {str(e)}")
+        logger.error(
+            f"Error checking out absensi record by NIP {nip} for today: {str(e)}"
+        )
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 

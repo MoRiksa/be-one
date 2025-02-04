@@ -46,14 +46,14 @@ async def checkin_absensi_endpoint(
 
 
 # Endpoint untuk check-out absensi (mengupdate jam_keluar)
-@absensi_router.put("/checkout/{absensi_id}", response_model=AbsensiResponse)
+@absensi_router.put("/checkout/nip/{nip}", response_model=AbsensiResponse)
 async def checkout_absensi_endpoint(
     request: Request,
-    absensi_id: int,
+    nip: str,
     absensi: AbsensiUpdate,
     db: Session = Depends(get_db),
 ):
-    return await checkout_absensi(request, absensi_id, absensi, db)
+    return await checkout_absensi(request, nip, absensi, db)
 
 
 # Endpoint untuk menghapus absensi berdasarkan ID
