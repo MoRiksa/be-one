@@ -61,7 +61,9 @@ async def login(user, db: Session, response: Response):
     )
 
     logger.info(f"Login berhasil untuk pengguna: {user.email}")
-    return {"message": "Login berhasil"}
+
+    # Return token and email in the response body
+    return {"message": "Login berhasil", "token": token, "email": db_user.email}
 
 
 # Fungsi rute terlindungi (akses token dari cookie)

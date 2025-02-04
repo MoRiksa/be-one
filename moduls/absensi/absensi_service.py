@@ -1,14 +1,16 @@
 from sqlalchemy.orm import Session
 from models.absensiModels import Absensi
 from .schemas import AbsensiCreate, AbsensiUpdate, AbsensiResponse
-from fastapi import HTTPException
+from fastapi import HTTPException, Request
 import logging
 
 # Logging setup
 logger = logging.getLogger(__name__)
 
 
-async def get_all_absensi(db: Session):
+async def get_all_absensi(request: Request, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
     try:
         absensi_list = db.query(Absensi).all()
         if not absensi_list:
@@ -21,7 +23,9 @@ async def get_all_absensi(db: Session):
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 
-async def get_absensi_by_id(absensi_id: int, db: Session):
+async def get_absensi_by_id(request: Request, absensi_id: int, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
     try:
         absensi = db.query(Absensi).filter(Absensi.id == absensi_id).first()
         if not absensi:
@@ -34,9 +38,36 @@ async def get_absensi_by_id(absensi_id: int, db: Session):
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 
-async def checkin_absensi(absensi: AbsensiCreate, db: Session):
+async def get_absensi_by_nip(request: Request, nip: str, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
     try:
-        new_absensi = Absensi(**absensi.dict())
+        if not nip:
+            logger.warning("Invalid request: NIP is undefined or empty")
+            raise HTTPException(status_code=400, detail="NIP is required")
+
+        absensi = db.query(Absensi).filter(Absensi.nip == nip).first()
+
+        if not absensi:
+            logger.warning(f"Absensi record with NIP {nip} not found")
+            raise HTTPException(
+                status_code=404, detail=f"Absensi with NIP {nip} not found"
+            )
+
+        logger.info(f"Retrieved absensi record with NIP {nip}")
+        return AbsensiResponse.from_orm(absensi)
+    except Exception as e:
+        logger.error(f"Error retrieving absensi record by NIP {nip}: {str(e)}")
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+
+async def checkin_absensi(request: Request, absensi: AbsensiCreate, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
+    try:
+        new_absensi = Absensi(
+            nip=absensi.nip, jam_masuk=absensi.jam_masuk, tanggal=absensi.tanggal
+        )
         db.add(new_absensi)
         db.commit()
         db.refresh(new_absensi)
@@ -47,7 +78,11 @@ async def checkin_absensi(absensi: AbsensiCreate, db: Session):
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 
-async def checkout_absensi(absensi_id: int, absensi_update: AbsensiUpdate, db: Session):
+async def checkout_absensi(
+    request: Request, absensi_id: int, absensi_update: AbsensiUpdate, db: Session
+):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
     try:
         absensi = db.query(Absensi).filter(Absensi.id == absensi_id).first()
         if not absensi:
@@ -63,7 +98,9 @@ async def checkout_absensi(absensi_id: int, absensi_update: AbsensiUpdate, db: S
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 
-async def delete_absensi(absensi_id: int, db: Session):
+async def delete_absensi(request: Request, absensi_id: int, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
     try:
         absensi = db.query(Absensi).filter(Absensi.id == absensi_id).first()
         if not absensi:

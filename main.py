@@ -12,14 +12,16 @@ setup_logging()
 
 # FastAPI initialization
 app = FastAPI(
-    title="INFOKAN JODOH UNTUK JODI YA TEMEN-TEMEN",
-    summary="Abdi Bakti ITDP Hunter",
+    title="ABDI IT OPEN API",
+    summary="ENDPOINT Menu, User, Absensi",
     version="0.1",
 )
 
 # CORS middleware setup
 origins = [
-    "http://localhost:3000",  # Pastikan ini adalah alamat dari frontend Anda
+    "http://localhost:3000",
+    "http://localhost:8081",
+    # Pastikan ini adalah alamat dari frontend Anda
     # Anda bisa menambahkan lebih banyak alamat jika dibutuhkan
 ]
 
