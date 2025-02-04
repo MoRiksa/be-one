@@ -348,3 +348,354 @@ DETAIL:  Failing row contains (null, kontol, 155555, 1).
 2025-01-29 15:49:10,279 - INFO - Login successful for user: user@example.com
 2025-01-29 15:49:10,783 - INFO - Accessing protected route by user: user@example.com
 2025-01-29 15:49:10,786 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 16:24:54,081 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:24:54,093 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:24:58,020 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:25:27,236 - INFO - Menu retrieved: Air Putih
+2025-01-29 16:25:27,241 - INFO - Menu retrieved: Air Putih
+2025-01-29 16:25:29,494 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:25:29,497 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:26:28,014 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:26:29,494 - INFO - Menu retrieved: Kopi
+2025-01-29 16:26:29,498 - INFO - Menu retrieved: Kopi
+2025-01-29 16:27:12,084 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:27:12,089 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:27:14,414 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:27:15,945 - INFO - Menu retrieved: Kopi
+2025-01-29 16:27:15,951 - INFO - Menu retrieved: Kopi
+2025-01-29 16:31:06,991 - INFO - Menu retrieved: Kopi
+2025-01-29 16:31:11,719 - INFO - Menu retrieved: Kopi
+2025-01-29 16:31:14,002 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:31:14,008 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:31:15,260 - INFO - Menu retrieved: Kopi
+2025-01-29 16:31:15,264 - INFO - Menu retrieved: Kopi
+2025-01-29 16:31:20,672 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:31:20,676 - INFO - User user@example.com retrieved all menus
+2025-01-29 16:35:39,337 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 16:35:39,340 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 16:48:21,099 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:12:00,688 - INFO - Attempting login for user: user@example.com
+2025-01-29 18:12:00,924 - INFO - Login successful for user: user@example.com
+2025-01-29 18:12:00,993 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:12:00,996 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:12:22,718 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:12:22,730 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:14:26,150 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:14:45,496 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:20:31,305 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:23:03,374 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:30:38,879 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:33:24,786 - INFO - Last menu ID retrieved: 1343
+2025-01-29 18:33:40,855 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:34:33,855 - INFO - Last menu ID retrieved: 1343
+2025-01-29 18:34:35,226 - INFO - Last menu ID retrieved: 1343
+2025-01-29 18:34:52,877 - INFO - Last menu ID retrieved: 1343
+2025-01-29 18:34:53,214 - INFO - Menu created: kopi bahagia
+2025-01-29 18:35:11,481 - INFO - Last menu ID retrieved: 1344
+2025-01-29 18:35:11,495 - INFO - Menu created: kopi bahagia large
+2025-01-29 18:36:19,121 - INFO - Menu retrieved: Kopiko
+2025-01-29 18:36:19,125 - INFO - Menu retrieved: Kopiko
+2025-01-29 18:36:23,668 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:36:23,674 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:36:28,709 - INFO - Menu retrieved: kopi bahagia
+2025-01-29 18:36:28,715 - INFO - Menu retrieved: kopi bahagia
+2025-01-29 18:36:30,608 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:36:30,614 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:36:46,014 - INFO - Menu deleted: makanan
+2025-01-29 18:37:06,337 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:43:28,852 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:43:28,854 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:43:30,217 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:43:30,221 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:49:39,884 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:49:39,884 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:49:44,992 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:49:44,994 - INFO - Accessing protected route by user: user@example.com
+2025-01-29 18:49:45,699 - INFO - User user@example.com retrieved all menus
+2025-01-29 18:49:45,704 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:03:55,840 - INFO - Attempting login for user: user@example.com
+2025-01-29 19:03:56,060 - INFO - Login successful for user: user@example.com
+2025-01-29 19:09:09,750 - INFO - Menu updated: kopi bahagia (L)
+2025-01-29 19:24:58,152 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:25:33,509 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:25:33,515 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:29:19,691 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:29:24,035 - INFO - Menu updated: Kopi
+2025-01-29 19:29:29,297 - INFO - Menu updated: Kopi
+2025-01-29 19:37:33,133 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:37:42,842 - INFO - Menu updated: Xtra JOSS
+2025-01-29 19:37:45,963 - INFO - Menu updated: Xtra JOSS
+2025-01-29 19:38:08,466 - INFO - Last menu ID retrieved: 1345
+2025-01-29 19:38:08,795 - INFO - Menu created: kopi jeruji
+2025-01-29 19:38:12,921 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:35,711 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:35,778 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:35,848 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:35,920 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:35,983 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,043 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,100 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,153 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,203 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,259 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,309 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,362 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,416 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,488 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,546 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,600 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,660 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,712 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,760 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,807 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,854 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,917 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:36,973 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,029 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,126 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,240 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,311 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,394 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,503 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,577 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,656 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,728 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,805 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,869 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,940 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:37,997 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,064 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,135 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,220 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,308 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,372 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,447 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,495 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,563 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,670 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,754 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,832 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:38,921 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,004 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,079 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,140 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,204 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,270 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,362 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,439 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,529 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,617 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,719 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:38:39,812 - INFO - User user@example.com retrieved all menus
+2025-01-29 19:41:59,513 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:07:56,811 - ERROR - Token is missing
+2025-01-30 08:08:23,774 - INFO - Attempting login for user: user@example.com
+2025-01-30 08:08:24,140 - INFO - Login successful for user: user@example.com
+2025-01-30 08:08:24,708 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 08:08:24,714 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 08:29:24,985 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:29:24,989 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:29:28,431 - INFO - Menu retrieved: Kopilah
+2025-01-30 08:29:28,438 - INFO - Menu retrieved: Kopilah
+2025-01-30 08:32:10,100 - INFO - Menu retrieved: Kopilah
+2025-01-30 08:32:26,492 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:32:26,492 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:32:32,210 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:32:32,214 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:35:49,870 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:35:56,152 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:35:57,275 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:36:46,959 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:36:46,959 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:39:14,164 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:39:14,164 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:39:30,442 - INFO - Menampilkan Daftar Menu dengan Kategori [{'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 7, 'nama_menu': 'Kopikap', 'harga': 1500.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 1344, 'nama_menu': 'kopi bahagia', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 1345, 'nama_menu': 'kopi bahagia (L)', 'harga': 25000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 5, 'nama_menu': 'Xtra JOSS', 'harga': 5000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 1346, 'nama_menu': 'kopi jeruji', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 3, 'nama_menu': 'Indomie + Telor', 'harga': 10000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}, {'id_menu': 1343, 'nama_menu': 'pizza', 'harga': 313131.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 1, 'nama_menu': 'Air Putih', 'harga': 1500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 2, 'nama_menu': 'Kopi', 'harga': 3000.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}, {'id_menu': 332, 'nama_menu': 'Kopiko', 'harga': 500.0, 'id_kategori': 2, 'nama_kategori': 'Makanan'}]
+2025-01-30 08:39:40,353 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:39:40,354 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:41:38,371 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:41:38,371 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:41:55,161 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:41:55,162 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:42:44,256 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:42:44,256 - ERROR - Error retrieving menu with category by ID: 1 validation error for respondKategori
+data
+  Input should be a valid list [type=list_type, input_value={'id_menu': 6, 'nama_menu...ma_kategori': 'Minuman'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-30 08:42:51,350 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:45:43,182 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:46:49,966 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:47:01,517 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:47:12,229 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:49:11,190 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:51:57,375 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:57:58,354 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:58:03,142 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:58:03,148 - INFO - User user@example.com retrieved all menus
+2025-01-30 08:58:10,329 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:58:10,335 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 08:58:56,031 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:00:50,625 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:00:55,048 - INFO - User logged out
+2025-01-30 09:01:02,798 - INFO - Attempting login for user: user@example.com
+2025-01-30 09:01:03,027 - INFO - Login successful for user: user@example.com
+2025-01-30 09:01:03,348 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 09:01:03,352 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 09:01:05,633 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:01:05,638 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:01:08,444 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:01:08,450 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:04:57,790 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:07:13,127 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:07:47,416 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:08:01,502 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:08:03,599 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:08:05,900 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:09:45,571 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:10:28,463 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:14:06,313 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:14:21,913 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:14:24,473 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:14:34,826 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:14:50,336 - INFO - Menu retrieved: Kopilah
+2025-01-30 09:22:36,895 - INFO - Attempting login for user: user@example.com
+2025-01-30 09:22:37,097 - INFO - Login successful for user: user@example.com
+2025-01-30 09:22:37,624 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 09:22:37,627 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 09:22:39,570 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:22:39,575 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:24:08,484 - INFO - Accessing protected route by user: user@example.com
+2025-01-30 09:24:09,464 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:24:09,469 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:24:30,037 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:24:30,041 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:00,846 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:00,852 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:02,500 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:05,250 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:13,206 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:20,354 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:31,586 - INFO - Menampilkan Menu dengan Kategori {'id_menu': 6, 'nama_menu': 'Kopilah', 'harga': 15000.0, 'id_kategori': 1, 'nama_kategori': 'Minuman'}
+2025-01-30 09:25:42,135 - INFO - Menu retrieved: Kopilah
+2025-01-30 09:25:42,141 - INFO - Menu retrieved: Kopilah
+2025-01-30 09:25:44,785 - INFO - Menu retrieved: Kopilah
+2025-01-30 09:33:39,788 - INFO - Pengguna berhasil logout
+2025-01-30 09:38:36,958 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 09:38:37,173 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 09:38:37,527 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 09:38:37,529 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 09:38:39,728 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:38:39,732 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:38:47,396 - INFO - Menu deleted: kopi jeruji
+2025-01-30 09:40:40,879 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:40:40,884 - INFO - User user@example.com retrieved all menus
+2025-01-30 09:51:11,894 - INFO - Pengguna berhasil logout
+2025-01-30 09:51:19,318 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 09:51:19,534 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 09:51:19,583 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 09:51:19,588 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 09:53:38,384 - ERROR - Token hilang
+2025-01-30 13:49:08,114 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 13:49:08,387 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 13:49:09,409 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:49:09,415 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:51:20,673 - ERROR - Token hilang
+2025-01-30 13:53:02,808 - ERROR - Token hilang
+2025-01-30 13:53:14,222 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 13:53:14,569 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 13:53:14,716 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:53:14,722 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:54:20,833 - INFO - User user@example.com retrieved all menus
+2025-01-30 13:54:20,848 - INFO - User user@example.com retrieved all menus
+2025-01-30 13:54:45,835 - INFO - Menu updated: Kopilah2
+2025-01-30 13:54:57,002 - INFO - Menu updated: Kopilah2
+2025-01-30 13:55:06,467 - INFO - Menu deleted: Kopilah2
+2025-01-30 13:55:11,062 - INFO - Menu retrieved: Kopikap
+2025-01-30 13:55:11,069 - INFO - Menu retrieved: Kopikap
+2025-01-30 13:55:47,434 - ERROR - Token is missing
+2025-01-30 13:55:47,437 - ERROR - Token is missing
+2025-01-30 13:55:56,262 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 13:55:56,612 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 13:55:56,697 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:55:56,707 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:55:58,919 - INFO - User user@example.com retrieved all menus
+2025-01-30 13:55:58,932 - INFO - User user@example.com retrieved all menus
+2025-01-30 13:56:58,370 - INFO - Last menu ID retrieved: 1345
+2025-01-30 13:56:58,709 - INFO - Menu created: Air putih
+2025-01-30 13:57:29,817 - INFO - User user@example.com retrieved all menus
+2025-01-30 13:58:17,090 - ERROR - Token hilang
+2025-01-30 13:58:17,092 - ERROR - Token hilang
+2025-01-30 13:58:39,408 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-01-30 13:58:39,769 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-01-30 13:58:39,906 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-01-30 13:58:39,912 - INFO - Mengakses rute terlindungi oleh pengguna: user@example.com
+2025-02-04 08:42:22,505 - INFO - Retrieved all absensi records
+2025-02-04 08:42:22,517 - ERROR - Error retrieving all absensi records: 3 validation errors for AbsensiResponse
+jam_masuk
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+jam_keluar
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+tanggal
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+2025-02-04 08:43:50,381 - INFO - Retrieved all absensi records
+2025-02-04 08:43:50,381 - ERROR - Error retrieving all absensi records: 3 validation errors for AbsensiResponse
+jam_masuk
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+jam_keluar
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+tanggal
+  Input should be a valid datetime [type=datetime_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+2025-02-04 08:51:28,198 - INFO - Retrieved all absensi records
+2025-02-04 08:51:28,198 - ERROR - Error retrieving all absensi records: 2 validation errors for AbsensiResponse
+jam_masuk
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(8, 50, 33, 71000), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+jam_keluar
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(16, 55, 35), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+2025-02-04 08:51:36,545 - INFO - Retrieved all absensi records
+2025-02-04 08:51:36,546 - ERROR - Error retrieving all absensi records: 2 validation errors for AbsensiResponse
+jam_masuk
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(8, 50, 33, 71000), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+jam_keluar
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(16, 55, 35), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+2025-02-04 08:51:39,670 - INFO - Retrieved all absensi records
+2025-02-04 08:51:39,671 - ERROR - Error retrieving all absensi records: 2 validation errors for AbsensiResponse
+jam_masuk
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(8, 50, 33, 71000), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+jam_keluar
+  Input should be a valid datetime [type=datetime_type, input_value=datetime.time(16, 55, 35), input_type=time]
+    For further information visit https://errors.pydantic.dev/2.10/v/datetime_type
+2025-02-04 08:53:15,235 - INFO - Retrieved all absensi records
+2025-02-04 08:55:03,853 - INFO - Retrieved absensi record with ID 1
+2025-02-04 08:56:27,521 - INFO - Retrieved all absensi records
+2025-02-04 09:03:13,132 - INFO - Retrieved absensi record with ID 1

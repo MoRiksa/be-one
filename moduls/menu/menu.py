@@ -1,7 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
 from db.session import get_db
-from .schemas import MenuResponse, respondKategori, MenuCreate, MenuUpdate
+from .schemas import (
+    MenuResponse,
+    respondKategori,
+    MenuCreate,
+    MenuUpdate,
+    respondDetail,
+)
 from .menu_service import (
     get_all_menus,
     get_menus_with_category,
@@ -9,6 +15,8 @@ from .menu_service import (
     update_menu,
     delete_menu,
     get_menu_by_id,
+    get_last_menu_id,
+    get_menu_with_category_by_id,
 )
 from typing import List
 
@@ -56,3 +64,17 @@ async def delete_menu_endpoint(menu_id: int, db: Session = Depends(get_db)):
 @menu_router.get("/{menu_id}", response_model=MenuResponse)
 async def get_menu_by_id_endpoint(menu_id: int, db: Session = Depends(get_db)):
     return await get_menu_by_id(menu_id, db)
+
+
+# Endpoint untuk mendapatkan menu dengan kategori berdasarkan ID
+@menu_router.get("/detail/{menu_id}", response_model=respondDetail)
+async def get_menu_with_category_by_id_endpoint(
+    menu_id: int, db: Session = Depends(get_db)
+):
+    return await get_menu_with_category_by_id(menu_id, db)
+
+
+# Endpoint untuk mendapatkan id_menu terakhir
+@menu_router.get("/id/last-id", response_model=dict)
+async def get_last_menu_id_endpoint(db: Session = Depends(get_db)):
+    return await get_last_menu_id(db)

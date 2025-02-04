@@ -47,3 +47,13 @@ class respondKategori(BaseModel):
     class Config:
         orm_mode = True
         from_attributes = True
+
+
+class respondDetail(BaseModel):
+    status: str
+    message: str
+    data: KategoriItem
+
+    class Config:
+        orm_mode = True
+        from_attributes = True
