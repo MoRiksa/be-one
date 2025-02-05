@@ -1102,3 +1102,72 @@ WHERE log_absensi.nip = %(nip_1)s
 2025-02-04 20:23:02,447 - INFO - Checked in absensi record for NIP user@example.com
 2025-02-04 20:23:11,319 - INFO - Checked out absensi record with NIP user@example.com for today
 2025-02-04 20:26:29,339 - INFO - Retrieved absensi record with NIP user@example.com
+2025-02-04 23:01:55,169 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-04 23:01:55,557 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-04 23:01:55,601 - INFO - Retrieved absensi record with NIP user@example.com
+2025-02-05 07:57:30,800 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 07:57:51,744 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 07:57:52,005 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 07:57:52,042 - INFO - Retrieved absensi record with NIP user@example.com
+2025-02-05 07:58:19,772 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 07:58:20,125 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 07:58:20,186 - INFO - Retrieved absensi record with NIP user@example.com
+2025-02-05 08:01:01,740 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:01:02,099 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:01:02,140 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:01:02,141 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:04:11,761 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:04:11,761 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:04:11,767 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:05:14,388 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:05:14,738 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:05:14,803 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:05:14,813 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:05:14,814 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:05:49,758 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:05:49,824 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:05:49,825 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:05:50,415 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:05:50,415 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:05:50,726 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:07:09,496 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:07:09,851 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:07:09,896 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:07:09,896 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:07:10,193 - WARNING - No absensi records found for NIP user@example.com
+2025-02-05 08:07:10,193 - ERROR - Error retrieving absensi records by NIP user@example.com: 404: No absensi records found for NIP user@example.com
+2025-02-05 08:07:26,912 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:07:27,271 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:07:27,315 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:07:27,316 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:07:27,628 - WARNING - No absensi records found for NIP user@example.com
+2025-02-05 08:07:27,628 - ERROR - Error retrieving absensi records by NIP user@example.com: 404: No absensi records found for NIP user@example.com
+2025-02-05 08:07:40,634 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:07:41,004 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:07:41,057 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:07:41,057 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:07:41,365 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:08:32,933 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:08:33,019 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:08:33,020 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:08:33,165 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:08:33,475 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:08:33,475 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:08:57,729 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:08:57,732 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:08:57,733 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:08:58,096 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:08:58,098 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:08:58,099 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:10:19,522 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:10:19,525 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:10:19,525 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:10:19,724 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:10:19,727 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:10:19,727 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:10:27,739 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:10:27,741 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:10:27,742 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:10:28,423 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:10:28,423 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:10:28,424 - INFO - Retrieved absensi records for NIP user@example.com

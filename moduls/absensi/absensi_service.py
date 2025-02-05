@@ -47,18 +47,48 @@ async def get_absensi_by_nip(request: Request, nip: str, db: Session):
             logger.warning("Invalid request: NIP is undefined or empty")
             raise HTTPException(status_code=400, detail="NIP is required")
 
-        absensi = db.query(Absensi).filter(Absensi.nip == nip).first()
+        today = date.today()
+        absensi = (
+            db.query(Absensi)
+            .filter(Absensi.nip == nip, Absensi.tanggal == today)
+            .first()
+        )
 
         if not absensi:
-            logger.warning(f"Absensi record with NIP {nip} not found")
+            logger.warning(f"Absensi record with NIP {nip} not found for today")
             raise HTTPException(
-                status_code=404, detail=f"Absensi with NIP {nip} not found"
+                status_code=404, detail=f"Absensi with NIP {nip} not found for today"
             )
 
-        logger.info(f"Retrieved absensi record with NIP {nip}")
+        logger.info(f"Retrieved absensi record with NIP {nip} for today")
         return AbsensiResponse.from_orm(absensi)
     except Exception as e:
-        logger.error(f"Error retrieving absensi record by NIP {nip}: {str(e)}")
+        logger.error(
+            f"Error retrieving absensi record by NIP {nip} for today: {str(e)}"
+        )
+        raise HTTPException(status_code=500, detail="Internal Server Error")
+
+
+async def get_absensi_list_by_nip(request: Request, nip: str, db: Session):
+    access_token = request.cookies.get("access_token")
+    user_email = request.cookies.get("user_email")
+    try:
+        if not nip:
+            logger.warning("Invalid request: NIP is undefined or empty")
+            raise HTTPException(status_code=400, detail="NIP is required")
+
+        absensi_list = db.query(Absensi).filter(Absensi.nip == nip).all()
+
+        if not absensi_list:
+            logger.warning(f"No absensi records found for NIP {nip}")
+            raise HTTPException(
+                status_code=404, detail=f"No absensi records found for NIP {nip}"
+            )
+
+        logger.info(f"Retrieved absensi records for NIP {nip}")
+        return [AbsensiResponse.from_orm(absensi) for absensi in absensi_list]
+    except Exception as e:
+        logger.error(f"Error retrieving absensi records by NIP {nip}: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
 

@@ -9,6 +9,7 @@ from .absensi_service import (
     checkin_absensi,
     checkout_absensi,
     delete_absensi,
+    get_absensi_list_by_nip,
 )
 from typing import List
 
@@ -35,6 +36,14 @@ async def get_absensi_by_nip_endpoint(
     request: Request, nip: str, db: Session = Depends(get_db)
 ):
     return await get_absensi_by_nip(request, nip, db)
+
+
+# Endpoint untuk mendapatkan semua absensi berdasarkan NIP
+@absensi_router.get("/list/nip/{nip}", response_model=List[AbsensiResponse])
+async def get_absensi_list_by_nip_endpoint(
+    request: Request, nip: str, db: Session = Depends(get_db)
+):
+    return await get_absensi_list_by_nip(request, nip, db)
 
 
 # Endpoint untuk check-in absensi (membuat data baru dengan jam_keluar kosong)
