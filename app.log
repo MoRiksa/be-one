@@ -1485,3 +1485,36 @@ jam_masuk
 jam_masuk
   Value error, Field cannot be None [type=value_error, input_value=None, input_type=NoneType]
     For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-02-05 08:40:27,452 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:40:27,801 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:40:27,848 - INFO - Retrieved absensi record with NIP user@example.com for today
+2025-02-05 08:40:28,162 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:40:41,343 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:40:41,691 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:40:41,770 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:40:41,783 - INFO - Retrieved absensi record with NIP user@example.com for today
+2025-02-05 08:40:48,688 - INFO - Checked out absensi record with NIP user@example.com for today
+2025-02-05 08:40:53,694 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:40:54,048 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:40:54,177 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:40:54,180 - INFO - Retrieved absensi record with NIP user@example.com for today
+2025-02-05 08:43:21,431 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:43:21,436 - INFO - Retrieved absensi record with NIP user@example.com for today
+2025-02-05 08:43:21,722 - INFO - Retrieved absensi record with NIP user@example.com for today
+2025-02-05 08:43:21,725 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:44:04,361 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:44:04,717 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:44:04,780 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:44:04,789 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:44:04,789 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:44:30,011 - INFO - Checked in absensi record for NIP user@example.com
+2025-02-05 08:44:30,023 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:44:52,567 - INFO - Checked out absensi record with NIP user@example.com for today
+2025-02-05 08:44:52,583 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:45:24,242 - INFO - Mencoba login untuk pengguna: user@example.com
+2025-02-05 08:45:24,588 - INFO - Login berhasil untuk pengguna: user@example.com
+2025-02-05 08:45:24,633 - INFO - Retrieved absensi records for NIP user@example.com
+2025-02-05 08:45:24,638 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:45:24,640 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
+2025-02-05 08:45:47,781 - WARNING - Absensi record with NIP user@example.com not found for today
+2025-02-05 08:45:47,782 - ERROR - Error retrieving absensi record by NIP user@example.com for today: 404: Absensi with NIP user@example.com not found for today
