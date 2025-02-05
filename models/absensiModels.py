@@ -7,6 +7,6 @@ class Absensi(Base):
 
     id = Column(Integer, primary_key=True, index=True, autoincrement=True)
     nip = Column(String, index=True, nullable=False)
-    jam_masuk = Column(Time, nullable=False)
+    jam_masuk = Column(Time, nullable=True)
     jam_keluar = Column(Time, nullable=True)
     tanggal = Column(DateTime, nullable=False)
